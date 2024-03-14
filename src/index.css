@@ -11,3 +11,92 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  color: #009688; 
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #2196F3; 
+}
+
+h3 {
+  text-align: center;
+  font-size: 18px;
+  color: #FF5722; 
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+  
+}
+
+/* Media Query for Small Devices */
+@media only screen and (max-width: 480px) {
+  h1 {
+      font-size: 36px;
+  }
+  
+  h2 {
+      font-size: 18px;
+  }
+  
+  h3 {
+      font-size: 14px;
+  }
+  
+  p {
+      font-size: 14px;
+  }
+}
+
+/* Media Query for Medium Devices */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  h1 {
+      font-size: 40px;
+  }
+  
+  h2 {
+      font-size: 22px;
+  }
+  
+  h3 {
+      font-size: 14px;
+  }
+  
+  p {
+      font-size: 18px;
+  }
+}
+
+/* Media Query for Large Devices */
+@media only screen and (min-width: 1280px) {
+  h1 {
+      font-size: 48px;
+  }
+  
+  h2 {
+      font-size: 24px;
+  }
+  
+  h3 {
+      font-size: 12px;
+  }
+  
+  p {
+      font-size: 18px;
+  }
+}
